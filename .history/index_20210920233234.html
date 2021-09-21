@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <title> Australia </title>
+    <title> A Guide Around the World</title>
 
     <style>
         
@@ -58,19 +58,13 @@
             justify-content:space-around;
         }
 
-        #au {
+        #worldmap {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 30px;
-            width: auto;
-            height: 300px;
+            margin-top: 50px;
+            width: 50%;
             
-        }
-
-        #destinations {
-            margin-top: 40px;
-            text-align: center;
         }
 
         
@@ -79,13 +73,13 @@
 </head>
 
     <header>
-        Australia
+        A Guide Around the World
 
 
         <div id="languages">
             <span>Hello</span>
             <span>Bonjour</span>
-            <span>Marhabaan</span>
+            <span>marhabaan</span>
             <span>Zdravstvuyte</span>
             <span>nǐ hǎo</span>
             <span>Salve</span>
@@ -110,12 +104,26 @@
                 <li><a href="/ant_page.html">Antarctica</a></li>
             </ul>
         </nav>
+
+        <img id="worldmap" src="world_map.jpeg" alt="Map of World">
     
 
-        <img id="au" src="Australia.png" alt="Australia">
+    
 
         
-        <h2 id="destinations"> Top Tourist Destinations</h2>
+        
+        Which continent do you want to travel to next?
+        <select>
+            <option>Pick one...</option>
+            <option>North America</option>
+            <option>South America</option>
+            <option>Asia</option>
+            <option>Africa</option>
+            <option>Europe</option>
+            <option>Australia</option>
+            <option>Antarctica</option>
+          </select>  
+        
 
 
     </body>
