@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <title> A Guide Around the World</title>
+    <title> North America </title>
 
     <style>
         
@@ -20,7 +20,6 @@
         body{
             background: rgb(238, 245, 222);
             margin: 0px;
-            padding-bottom: 200px;
         }
 
         .top_nav {
@@ -59,18 +58,38 @@
             justify-content:space-around;
         }
 
-        #worldmap {
+        #na {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-top: 50px;
-            width: 50%;
+            margin-top: 30px;
+            width: auto;
+            height: 300px;
             
         }
 
-        #survey {
-            margin-top: 50px;
+        h1 {
+            text-align: center;
         }
+
+        #tourist_spots {
+            list-style: none;
+            text-align: center;
+        }
+        .tourist_spots.li {
+
+            font-size: 50px;
+            font-family: 'Kaushan Script', cursive;
+        }
+
+
+        #dest {
+            width: 400px;
+            height: 300px;
+            padding: 50px 50px;
+        }
+
+
 
         
     </style>
@@ -78,13 +97,13 @@
 </head>
 
     <header>
-        A Guide Around the World
+        North America
 
 
         <div id="languages">
             <span>Hello</span>
             <span>Bonjour</span>
-            <span>marhabaan</span>
+            <span>Marhabaan</span>
             <span>Zdravstvuyte</span>
             <span>nǐ hǎo</span>
             <span>Salve</span>
@@ -110,31 +129,57 @@
             </ul>
         </nav>
 
-        <img id="worldmap" src="images/world_map.jpeg" alt="Map of World">
+        <img id="na" src="NorthAmerica.png" alt="North america">
+
+
+        <h1> Top Tourist Destinations in North America</h1>
+
+
+        <ul id = "tourist_spots">
+            <li> New York City, NY United States</li>
+
+            <span><img id="dest" src="NY.jpeg" alt="NY">  </span>
+            <li> Los Angeles, CA United States</li>
+            <span><img id = "dest" src="LA.jpeg" alt="LA">  </span>
+            <li> Miami, FL United States</li>
+            <span><img id = "dest" src="MIA.jpeg" alt = "MIA">  </span>
+            <li> Toronto, Canada</li>
+            <span><img id = "dest" src="TOR.jpeg" alt="TOR">  </span>
+            <li> Cancun, Mexico</li>
+            <span><img id="dest" src="Cancun.jpeg" alt="Cancun">  </span>
+            <li> Las Vegas, NV United States</li>
+            <li> Vancouver, Canada</li>
+            <li> San Francisco, CA United States</li>
+            <li> Washington DC, United States</li>
+            <li> Punta Cana, Domincan Republic</li>
+
+        </ul>
     
 
     
 
         
-        
-        <div id="survey">
-
-            Which continent do you want to travel to next?
-            <select>
-                <option>Pick one...</option>
-                <option>North America</option>
-                <option>South America</option>
-                <option>Asia</option>
-                <option>Africa</option>
-                <option>Europe</option>
-                <option>Australia</option>
-                <option>Antarctica</option>
-            </select>  
-
-        </div>
         
 
 
     </body>
+
+
+    <footer>
+
+        References:
+
+        <ol>
+            <li>https://www.travelandleisure.com/travel-guide/new-york-city</li>
+            <li>https://en.wikipedia.org/wiki/Los_Angeles_County,_California</li>
+            <li>https://www.planetware.com/florida/best-time-to-visit-miami-fl-us-fl-442.htm</li>
+            <li>https://www.flytap.com/en-us/destinations/canada/toronto</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+
+    </footer>
+
     
 </html>
