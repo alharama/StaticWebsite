@@ -1,0 +1,85 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+ 
+ header {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+    border-bottom: 1px solid;
+    
+}
+
+body{
+    background: rgb(238, 245, 222);
+    margin: 0px;
+    padding-bottom: 200px;
+}
+
+.top_nav {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    
+}
+
+.top_nav ul {
+    margin: 0px;
+    color: blue;
+}
+
+.top_nav li {
+    display: inline-block;
+    
+}
+
+.top_nav a {
+    text-decoration:underline;
+    color: rgb(175, 52, 52); 
+    
+}
+
+.top_nav a:hover {
+    background-color: lightgray;
+}
+
+
+#languages{
+    
+    display: flex;
+    font-size: 20px;
+    justify-content:space-around;
+}
+ 
+ 
+ 
+ h1 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.tourist_spots {
+    text-align: center;
+}
+.tourist_spots li {
+    list-style: none;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+
+#dest {
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+}
+
+#other_dest_header {
+    font-size: 50px;
+}
+.extra_destinations li{
+    font-size: 20px;
+}
+

@@ -1,0 +1,29 @@
+
+ h1 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.tourist_spots {
+    text-align: center;
+}
+.tourist_spots li {
+    list-style: none;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+
+#dest {
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+}
+
+#other_dest_header {
+    font-size: 50px;
+}
+.extra_destinations li{
+    font-size: 20px;
+}
