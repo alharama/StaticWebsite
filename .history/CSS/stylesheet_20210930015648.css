@@ -79,7 +79,6 @@ body{
 }
 
 #other_dest_header {
-    padding-left: 20px;
     font-size: 50px;
 }
 .extra_destinations li{
@@ -92,6 +91,6 @@ body{
 }
 
 footer {
-    padding-left: 20px;
+    padding-left: 50px;
 }
 

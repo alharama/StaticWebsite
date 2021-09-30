@@ -79,7 +79,6 @@ body{
 }
 
 #other_dest_header {
-    padding-left: 20px;
     font-size: 50px;
 }
 .extra_destinations li{
@@ -89,9 +88,5 @@ body{
 
 #survey {
     margin: 50px;
-}
-
-footer {
-    padding-left: 20px;
 }
 
