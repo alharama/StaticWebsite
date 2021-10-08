@@ -23,12 +23,11 @@
             margin: 50px;
         }
 
-        #result {
-            padding-top: 5px;
-            font-family: 'Kaushan Script';
-        }
+
+
         
     </style>
+
 
     <script>
         function displayRadioValue() {
@@ -37,13 +36,13 @@
             for(i = 0; i < ele.length; i++) {
                 if(ele[i].checked)
                 document.getElementById("result").innerHTML
-                         = "Destination: "+ele[i].value;
+                        = "Destination: "+ele[i].value;
             }
         }
-    </script>
+</script>
 
 </head>
-<div id="contsiner">
+
 <body>
     <header>
         North America
@@ -63,7 +62,7 @@
         </div>
 
     </header>
-    
+
     
         <nav class="top_nav">
             <ul id="top_nav">
@@ -116,28 +115,26 @@
         
         <div id="survey">
 
-            Which destination would you like to travel to?
+            <br>
             <form>
-            
-                <input type="radio" name="dest_option" value="New York City">New York City<br>
-                <input type="radio" name="dest_option" value="Los Angeles">Los Angeles<br>
-                <input type="radio" name="dest_option" value="Miami">Miami<br>
-                <input type="radio" name="dest_option" value="Toronto">Toronto<br>
-                <input type="radio" name="dest_option" value="Cancun">Cancun<br>
-                <input type="radio" name="dest_option" value="Las Vegas">Las Vegas<br>
-                <input type="radio" name="dest_option" value="Vancouver">Vancouver<br>
+                
+                <input type="radio" name="dest_option">New York City<br>
+                <input type="radio" name="dest_option">Los Angeles<br>
+                <input type="radio" name="dest_option">Miami<br>
+                <input type="radio" name="dest_option">Toronto<br>
+                <input type="radio" name="dest_option">Cancun<br>
+                <input type="radio" name="dest_option">Las Vegas<br>
+                <input type="radio" name="dest_option">Vancouver<br>
                 <button type="button" onclick="displayRadioValue()">
                     Submit
                 </button>
-
-                <div id="result"></div>
 
             </form>
 
         </div>
 
         
-    
+
         <footer>
 
             References:
@@ -153,7 +150,6 @@
 
 
 </body>
-</div>
 
     
 </html>

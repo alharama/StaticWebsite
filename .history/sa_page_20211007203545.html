@@ -18,19 +18,10 @@
             height: 300px;
             
         }
+
+
         
     </style>
-
-    <script>
-        function displayRadioValue() {
-            var ele = document.getElementsByName('dest_option');
-          
-            for(i = 0; i < ele.length; i++) {
-                if(ele[i].checked)
-                document.getElementById("result").innerHTML = "Destination: "+ele[i].value;
-            }
-        }
-    </script>
 
 </head>
 
@@ -103,28 +94,24 @@
 
         <div id="survey">
 
-            Which destination would you like to travel to?
-            <form>
-            
-                <input type="radio" name="dest_option" value="Rio De Jenario">Rio De Jenario<br>
-                <input type="radio" name="dest_option" value="Cuzco">Cuzco<br>
-                <input type="radio" name="dest_option" value="Santiago">Santiago<br>
-                <input type="radio" name="dest_option" value="Galapagos Island">Galapagos Island<br>
-                <input type="radio" name="dest_option" value="Buenos Aires">Buenos Aires<br>
-                <input type="radio" name="dest_option" value="Easter Island">Easter Island<br>
-                <input type="radio" name="dest_option" value="Angel Falls">Angel Falls<br>
-                <button type="button" onclick="displayRadioValue()">
-                    Submit
-                </button>
+            Which destination do you want to travel to next?
+            <select>
+                <option>Pick one...</option>
+                <option>Rio De Jenario</option>
+                <option>Cuzco</option>
+                <option>Santiago</option>
+                <option>Galapagos Island</option>
+                <option>Buenos Aires</option>
+                <option>Easter Island</option>
+                <option>Angel Falls</option>
+            </select>  
 
-                <div id="result"></div>
-            </form>
         </div>
         
         <footer>
 
             
-                <div id="references">References:</div>
+                References:
     
             <ol>
                 <li><a href="https://www.travelandleisure.com/travel-guide/rio-de-janeiro">https://www.travelandleisure.com/travel-guide/rio-de-janeiro</a></li>
